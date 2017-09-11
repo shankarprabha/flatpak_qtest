@@ -1,0 +1,61 @@
+{{ "<!-- ABOUT -->" | safeHTML }}
+<section class='bg-white' id='about'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-lg-10 col-lg-offset-1'>
+         {{ with .Site.Params.aboutnco.headline }}
+          <h1 class='section-heading text-center'>{{ . }}</h1>
+         {{ end }}
+          <hr class='primary'>
+          <p>
+            Flatpak might be a new technology, but it's not a new idea. It grew out of the experience of long-standing Linux desktop engineers, and has been in the planning for years.
+          </p>
+          <p>
+            Flatpak is developed by an independent community, made up of volunteers and contributors from supporting organizations. Its lead developer is Alex Larsson, Principal Engineer at Red Hat. Alex has been working on critical open source projects for almost 20 years.
+          </p>
+          <p>
+            All our code is freely available, with no contributor agreement required. We collaborate and liaise with other communities and projects as much as possible, and welcome their input.
+          </p>
+          <p>
+            For more information, see our
+            <a href="faq.html">FAQ</a>,
+            <a href="command-line.html">command line</a>
+            and
+            <a href="http://docs.flatpak.org/">developer guidelines</a>
+            and the
+            <a href="https://github.com/flatpak/flatpak/wiki">developer wiki</a>.
+          </p>
+        </div>
+      </div>
+      <div class='row largegap'>
+        <div class='col-lg-12 text-center'>
+          <h3>Contact</h3>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-lg-2 col-xs-6 col-lg-offset-4'>
+          <div class='right toneddown'>Mailing list</div>
+        </div>
+        <div class='col-lg-4 col-xs-6'>
+          <a href="http://lists.freedesktop.org/mailman/listinfo/flatpak">flatpak@lists.freedesktop.org</a>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-lg-2 col-xs-6 col-lg-offset-4'>
+          <div class='right toneddown'>IRC</div>
+        </div>
+        <div class='col-lg-4 col-xs-6'>
+          #flatpak on Freenode
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-lg-2 col-xs-6 col-lg-offset-4'>
+          <div class='right toneddown'>Code, Issues and Wiki</div>
+        </div>
+        <div class='col-lg-4 col-xs-6'>
+          See our
+          <a href="https://github.com/flatpak/flatpak">Github project</a>
+        </div>
+      </div>
+    </div>
+  </section>

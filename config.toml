@@ -1,0 +1,38 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Flatpak"
+
+[params]
+
+   favicon = "favicon.png"
+   
+   name = "Prabha Shankar"
+   description = "Frontend Developer"
+   
+   # Navigation
+	[params.navigation]
+		brand = "Flatpak"
+
+		[params.navigation.links]
+			features      = "FEATURES"
+            getflatpak    = "GET FLATPAK"
+            applications  = "APPLICATIONS"
+            helloworld    = "HELLO WORLD"
+            faq           = "FAQ"
+            aboutnco      = "ABOUT & CONTACT"
+            
+    # Hero section
+	[params.hero]
+		slogan     = "THE FUTURE OF APPLICATION DISTRIBUTION"
+		subtitle   = "Flatpak is the next-generation technology for building and installing desktop applications. It has the power to revolutionize the Linux desktop ecosystem."
+		buttonText = "LEARN MORE"
+        
+    # Features section
+	[params.features]
+		headline = "Flatpak Features"
+    
+    # About section
+    [params.aboutnco]
+        headline = "About"
+        
+    # getflatpak section

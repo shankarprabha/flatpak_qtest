@@ -1,0 +1,84 @@
+{{ "<!-- FEATURES -->" | safeHTML }}
+<section class='bg-primary' id='features'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-lg-8 col-lg-offset-2 text-center'>
+          {{ with .Site.Params.features.headline }}
+                    <h2 class="section-heading">{{ . }}</h2>
+          {{ end }}
+          <hr class='light'>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-lg-2 col-sm-3 col-lg-offset-1'>
+          <h3>For users</h3>
+        </div>
+        <div class='col-lg-8 col-sm-9'>
+          <ul>
+            <li>
+              <h4>Access a wide variety of applications</h4>
+              <p>The list of Flatpak applications is growing all the time and includes Spotify, Skype and Telegram.</p>
+            </li>
+            <li>
+              <h4>Get new versions faster</h4>
+              <p>New releases of applications appear sooner with Flatpak.</p>
+            </li>
+            <li>
+              <h4>Safely update your apps without having to reboot</h4>
+              <p>Unlike package managers, Flatpak can safely update applications on the fly.</p>
+            </li>
+            <li>
+              <h4>Install different versions of the same application</h4>
+              <p>Simultaneously install multiple versions of the same application.</p>
+            </li>
+            <li>
+              <h4>Secure, sandboxed applications</h4>
+              <p>Flatpak's sandboxing technology prevents exploits and hinders malicious applications.</p>
+            </li>
+            <li style="color: #4a90de">
+              <a class='btn btn-primary btn-xl' href='flatpak.org/apps.html'>Install Flatpak Applications</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='row largegap'>
+        <div class='col-lg-2 col-sm-3 col-lg-offset-1'>
+          <h3>For developers</h3>
+        </div>
+        <div class='col-lg-8 col-sm-9'>
+          <ul>
+            <li>
+              <h4>Run the same app on all the main Linux distributions</h4>
+              <p>Create one app bundle and distribute it to the entire Linux desktop market.</p>
+            </li>
+            <li>
+              <h4>Consistent environment for development, testing and deployment</h4>
+              <p>Develop and test your application in an environment that's identical to the one users have.</p>
+            </li>
+            <li>
+              <h4>Easy-to-use, fully-documented build tools</h4>
+              <p>
+                Flatpak's build tools are simple and easy to use, and come with a
+                <a href="http://docs.flatpak.org/">full set of documentation.</a>
+              </p>
+            </li>
+            <li>
+              <h4>Maintained collections of essential dependencies</h4>
+              <p>Runtimes provide stable sets of dependencies that can be used by applications.</p>
+            </li>
+            <li>
+              <h4>Pick and choose application dependencies</h4>
+              <p>Dependencies that aren't in a runtime can be bundled as part of an application. Versions of the dependencies that are used can be fixed and patched.</p>
+            </li>
+            <li>
+              <h4>Future-proof builds</h4>
+              <p>Runtimes are forward compatible, irrespective of distribution changes. Flatpak applications run on new Linux distribution versions as they are released.</p>
+            </li>
+            <li style="color: #4a90de">
+              <a class='btn btn-primary btn-xl' href='flatpak.org/hello-world.html'>Create an Application in 5 minutes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
